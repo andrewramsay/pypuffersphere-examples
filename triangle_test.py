@@ -15,11 +15,9 @@ from pypuffersphere.sphere_sim import make_grid
 
 t = 0
 if __name__ == "__main__":
-    imagepath = os.path.join(os.path.split(__file__)[0], 'images')
-    
     size = 1920   
-    s = sphere_sim.make_viewer(images=imagepath)
-    cat_image = pyglet.image.load(os.path.join(imagepath, 'leaf.png'))
+    s = sphere_sim.make_viewer()
+    cat_image = pyglet.image.load(os.path.join('images', 'leaf.png'))
     cat_texture = cat_image.texture.id
 
     vs = []
