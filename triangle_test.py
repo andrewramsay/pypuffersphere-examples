@@ -9,9 +9,9 @@ import pyglet
 
 import pypuffersphere
 from pypuffersphere.utils import glskeleton, glutils, gloffscreen
-import pypuffersphere.sphere_cy as sphere
-import pypuffersphere.sphere_sim as sphere_sim
-from pypuffersphere.sphere_sim import make_grid
+import pypuffersphere.sphere.sphere_cy as sphere
+import pypuffersphere.sphere.sphere_sim as sphere_sim
+from pypuffersphere.sphere.sphere_sim import make_grid
 
 t = 0
 if __name__ == "__main__":
