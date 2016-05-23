@@ -6,8 +6,8 @@ from pygame.locals import *
 import itertools
 import pygame,time,sys,random,math
 from pypuffersphere.utils import glskeleton, glutils, gloffscreen
-from pypuffersphere import sphere_sim
-from pypuffersphere import sphere
+from pypuffersphere.sphere import sphere_sim
+from pypuffersphere.sphere import sphere
 
 def spiral_layout(n, C=3.6, phi_range=[0, 2*np.pi/3.0]):
     """Return the spherical co-ordinates [phi, theta] for a uniform spiral layout

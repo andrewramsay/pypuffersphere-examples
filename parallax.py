@@ -5,9 +5,9 @@ from OpenGL.GLUT import *
 from pygame.locals import *
 import pygame,time,sys,random,math,os
 from pypuffersphere.utils import gloffscreen, glutils, glskeleton
-from pypuffersphere import sphere_sim
-from pypuffersphere import sphere_cy as sphere
-from pypuffersphere import touch_sphere as touch_lib
+from pypuffersphere.sphere import sphere_sim
+from pypuffersphere.sphere import sphere_cy as sphere
+from pypuffersphere.sphere import touch_sphere as touch_lib
 import itertools
 import pyglet
 
